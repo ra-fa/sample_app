@@ -5,6 +5,10 @@ ruby '2.0.0'
 gem 'rails', '4.0.4'
 gem 'pg', '0.15.1'
 gem 'rubysl-securerandom', '2.0.0'
+gem 'bundler', '1.6.2'
+gem 'mspec', '1.5.21'
+gem 'rake', '10.3.1'
+
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
