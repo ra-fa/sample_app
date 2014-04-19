@@ -11,9 +11,22 @@ describe StaticPagesController do
 
   describe "GET 'help'" do
     it "returns http success" do
-      get 'help'
+      get 'static_pages/help'
       response.should be_success
     end
   end
 
+  describe "GET 'about'" do
+    it "returns http success" do
+      get 'static_pages/about'
+      response.should be_success
+    end
+  end
+
+  describe "GET 'contact'" do
+    it "returns http success" do
+      get '/static_pages/contact'
+      response.should be_success
+    end
+  end
 end
