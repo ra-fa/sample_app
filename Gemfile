@@ -3,6 +3,8 @@ ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
 gem 'pg', '0.15.1'
 gem 'rubysl-securerandom', '2.0.0'
 gem 'bundler', '1.5.2'
@@ -22,7 +24,7 @@ group :test do
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '4.0.1'
+gem 'sass-rails', '4.0.2'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '2.1.1'
