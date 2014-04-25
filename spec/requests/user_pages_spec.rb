@@ -23,12 +23,12 @@ describe "User pages" do
         expect { click_button submit }.not_to change(User, :count)
       end
 
-    describe "after submission" do
-      before { click_button submit }
+      describe "after submission" do
+        before { click_button submit }
 
-      it { should have_title('Sign up') }
-      it { should have_content('error') }
-    end
+        it { should have_title('Sign up') }
+        it { should have_content('error') }
+      end
     end
 
     describe "with valid information" do
